@@ -1,0 +1,7 @@
+body{
+    background-image: url(https://pbs.twimg.com/media/EyK1iBtXMAIa4qr.jpg:large);
+    background-size: cover;
+}
+.custom-shadow{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 3);
+}
