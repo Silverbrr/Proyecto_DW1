@@ -1,0 +1,32 @@
+#txt {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagennueva{
+    width: 120px;
+    height: 120px;
+}
+.imagenesarriba{
+    width: 150px;
+    height: 150px;
+}
+body::before { /* lo que esta atras del body, el fondo de pantalla*/
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://pbs.twimg.com/media/Eavq3Q2XsAAw51v.jpg);
+    opacity: 0.15; /* Ajustar opacidad del fondo en este caso */
+    z-index: -1; /* Coloca el elemento atras del body */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mxtxt{
+    text-align: right;
+}

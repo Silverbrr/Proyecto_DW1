@@ -1,0 +1,49 @@
+body {
+    background-color: black; color: rgb(255, 255, 255);  font-weight: bold;
+}
+img {
+    height: 92vh;
+    object-fit: cover;
+}
+ .navbar-brand img {
+    height: auto; 
+} 
+#j {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/835/313/146/9z-team-frankkaster-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.card {
+    overflow: hidden;
+  }
+.zoomable-image-container {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .zoomable-image {
+    transition: transform 0.3s ease;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .zoomable-image-container:hover .zoomable-image {
+    transform: scale(1.1);
+  }
+#c1{
+width: 172%;
+}
+#c2{
+    width:150%;   
+}
+#c3{
+    width: 172% ;   
+}
+
