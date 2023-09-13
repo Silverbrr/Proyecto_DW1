@@ -1,6 +1,9 @@
 body {
-    background-color: black; color: rgb(255, 255, 255);  font-weight: bold;
-}
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 27%, rgba(42,5,69,1) 85%, rgba(88,26,136,1) 100%);
+  color: white;  
+  font-size: bold;
+} /*background-color: #390f5a */ 
 img {
     height: 92vh;
     object-fit: cover;
@@ -8,16 +11,14 @@ img {
  .navbar-brand img {
     height: auto; 
 } 
-#j {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/835/313/146/9z-team-frankkaster-hd-wallpaper-preview.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.navbar-extra-dark{
+  background-color: #000;
 }
 .card {
     overflow: hidden;
   }
+  .imgsize{
+    width: 10%;}
 .zoomable-image-container {
     overflow: hidden;
     position: relative;
