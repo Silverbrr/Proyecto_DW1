@@ -5,7 +5,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 27%, rgba(42,5,69,1) 85%, rgba
   font-size: bold;
 } /*background-color: #390f5a */ 
 img {
-    height: 92vh;
+    height: 100vh;
     object-fit: cover;
 }
  .navbar-brand img {
@@ -47,4 +47,8 @@ width: 172%;
 #c3{
     width: 172% ;   
 }
+.inicio{
+  white-space:nowrap;
+}
+
 
